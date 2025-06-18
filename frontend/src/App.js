@@ -83,7 +83,7 @@ function App() {
           <span className="nav-title">PDF Chat Assistant</span>
         </div>
         <div className="nav-buttons">
-          <button className="nav-button primary" onClick={triggerFileInput} disabled={isUploading}>
+          <button className="nav-button black " onClick={triggerFileInput} disabled={isUploading}>
             {isUploading ? 'Uploading...' : 'Upload PDF'}
           </button>
         </div>
